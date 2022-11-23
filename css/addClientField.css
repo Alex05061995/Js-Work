@@ -1,0 +1,28 @@
+.select-wrapper {
+  position: relative;
+  background-color: blue;
+}
+
+.select-box {
+  display: inline-block;
+}
+
+.select-input {
+  display: inline-block;
+}
+
+.select-options {
+  display: none;
+  position: absolute;
+  background-color: brown;
+  bottom: -88px;
+  left: 0;
+}
+
+.select-item {
+  list-style: none;
+}
+
+.active {
+  display: inline-block;
+}

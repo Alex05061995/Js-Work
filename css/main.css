@@ -1,0 +1,131 @@
+@import url('./addAndChangeClient.css');
+@import url('./client.css');
+@import url('./addAndChangeClient.css');
+@import url('./deleteConfirmation.css');
+@import url('./addClientField.css');
+@import url('./tooltip.css');
+
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+ }
+
+body {
+    position: relative;
+    background-color: #E5E5E5;
+    min-height: 100vh;
+}
+
+
+.header {
+    min-height: 90px;
+    background: #FFFFFF;
+    box-shadow: 0px 9.03012px 27.0904px rgba(176, 190, 197, 0.32), 0px 3.38629px 5.64383px rgba(176, 190, 197, 0.32);
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.header-container {
+    padding: 0 20px 0 20px;
+    max-width: 1406px;
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    margin-right: 53px;
+}
+
+.header__search {
+    padding: 14px 16px 13px 16px;
+    width: 100%;
+    max-width: 581px;
+    border: 1px solid rgba(51, 51, 51, 0.2);
+}
+
+.header__search::placeholder {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #B0B0B0;
+}
+
+.clients {
+    padding: 40px 90px 252px 40px;
+}
+
+.clients-container {
+    padding: 0 15px 0 15px;
+    max-width: 1216px;
+}
+
+.clients-title {
+    margin-bottom: 26px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #333333;
+}
+
+.clients-table {
+    margin-bottom: 40px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead tr td {
+  padding: 20px 20px 8px 20px;
+}
+
+.head-td {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #B0B0B0;
+}
+
+.head-td:not(:nth-last-child(-n+3)) {
+    cursor: pointer;
+}
+
+.head-td-id {
+    color: #9873FF;
+    text-align: center;
+}
+
+.btn-wrapper {
+    text-align: center;
+}
+
+.btn-wrapper button {
+    padding: 12.5px 26.5px 12.5px 58.5px;
+    background: none;
+    background: url('../img/btn-add-person.svg');
+    background-repeat: no-repeat;
+    background-position: 26.5px center;
+    border: 1px solid #9873FF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #9873FF;
+    cursor: pointer;
+}
+
+
+
+
